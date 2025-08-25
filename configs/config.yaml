@@ -1,0 +1,27 @@
+project:
+  name: urbeye-ml
+paths:
+  aoi_dir: data/aoi
+  raw_dir: data/raw
+  chips_dir: data/chips
+  labels_dir: data/labels
+  preds_dir: data/preds
+  outputs_dir: outputs
+stac:
+  url: https://planetarycomputer.microsoft.com/api/stac/v1
+  collections:
+    s2: sentinel-2-l2a
+    s1: sentinel-1-grd
+  cloud_lt: 60
+preprocess:
+  crs: EPSG:32643         # adjust per AOI
+  resolution: 10          # meters
+  tile_size: 512          # pixels
+  s2_bands: [B02, B03, B04, B08, SCL]
+model:
+  in_channels: 8          # S2 4 bands * 2 times
+  base_channels: 32
+  lr: 0.0003
+  batch_size: 8
+  epochs: 30
+  device: cpu          # or cpu

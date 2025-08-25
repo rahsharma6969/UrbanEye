@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {"name":"Mumbai bbox"},
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[
+        [72.76, 18.88],
+        [73.10, 18.88],
+        [73.10, 19.35],
+        [72.76, 19.35],
+        [72.76, 18.88]
+      ]]
+    }
+  }]
+}

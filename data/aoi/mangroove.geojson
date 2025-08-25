@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Versova Mangroves" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [72.815, 19.140],
+          [72.830, 19.140],
+          [72.830, 19.155],
+          [72.815, 19.155],
+          [72.815, 19.140]
+        ]]
+      }
+    }
+  ]
+}
