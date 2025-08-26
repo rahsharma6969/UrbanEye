@@ -12,7 +12,7 @@ stac:
   collections:
     s2: sentinel-2-l2a
     s1: sentinel-1-grd
-  cloud_lt: 60
+  cloud_lt: 30
 preprocess:
   crs: EPSG:32643         # adjust per AOI
   resolution: 10          # meters
