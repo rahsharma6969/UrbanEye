@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "zone": "restricted_dummy" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [72.870, 19.120],
+          [72.880, 19.120],
+          [72.880, 19.130],
+          [72.870, 19.130],
+          [72.870, 19.120]
+        ]]
+      }
+    }
+  ]
+}
